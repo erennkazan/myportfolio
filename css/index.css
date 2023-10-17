@@ -13,6 +13,7 @@ body {
     background-color: #fff;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
 }
 
 nav {
@@ -43,6 +44,27 @@ a{
 li {
     display: inline;
     margin-right: 20px;
+}
+.hi{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #610C9F;
+    text-align: center;
+}
+
+.dev{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #610C9F;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: .5px;
+}
+.right-area {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* Ekstra stillendirmeleri burada ekleyebilirsiniz */
 
