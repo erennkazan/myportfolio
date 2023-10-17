@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Gri arka plan rengi */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 1200px;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-left {
+    width: 20%;
+    margin-left: 100px;
+}
+
+
+.nav-center {
+    width: 60%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+/* Ekstra stillendirmeleri burada ekleyebilirsiniz */
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .nav-center {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-left, .nav-right {
+        width: auto;
+    }
+
+    .nav-left {
+        text-align: left;
+    }
+
+    .nav-right {
+        text-align: right;
+    }
+
+    .nav-center ul {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-center ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Diğer stillendirmeleri burada ekleyebilirsiniz */
+
